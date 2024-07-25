@@ -1,0 +1,85 @@
+.header {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    margin-left: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 58px;
+    display: flex;
+    padding-top: 0px;
+    
+}
+
+.left-about {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.center {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.right-side-container {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 20px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.right-gmail,.right-image {
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 13px;
+    font-style: arail;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.right-gmail:hover,.right-image:hover, .center:hover, .left-about:hover {
+    text-decoration: underline;
+}
+
+.right-search-lab,.right-dot {
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    cursor: pointer;
+}
+
+.right-dragon {
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 15px;
+    padding-right: 2px;
+    cursor: pointer;
+}
